@@ -1,0 +1,295 @@
+.logo{
+padding-right: 30px;
+width: 5%;
+padding-left: 55px;
+
+}
+.all{
+  padding-left: 400px;
+  width: 100%;
+}
+.rectangle{
+    width: 400px;
+    height: 600px;
+    box-shadow: 0 0 20px 0 rgba(154, 143, 143, 0.8);
+    align-items: center;
+  border-radius: 25px;
+  padding: 10px;
+  }
+.content{
+  padding-left: 50px;
+
+}
+.stay{
+  font-weight: 200;
+  font-size: smaller;
+}
+  h2, p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 0;
+  }
+.phone{
+  background: fff;
+  width: 80%;
+  height: 28px;
+  max-width: 300px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 10px 10px;
+
+}
+.phone input{
+  border: 0;
+ }
+
+ .password{
+    background: fff;
+    width: 80%;
+    height: 28px;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 10px 10px;
+}
+.password input{
+border: 0;
+}
+
+.password img{
+    width: 15px;
+    cursor: pointer;
+    padding-left: 90px;
+}
+.forgot{
+    border: 0;
+    color: blue;
+    width: 35%;
+    border-radius: 20px;
+    background-color: white;
+}
+.forgot:hover{
+    background-color: rgb(150, 190, 250);
+    cursor: pointer;
+    text-decoration: underline;
+}
+.signin{
+    color: white;
+    background-color: rgb(36, 39, 240);
+    width: 480px;
+    max-width: 300px;
+    border-radius: 35px;
+    border: 1px solid rgb(36, 39, 240);
+    padding: 15px;
+}
+.signin:hover{
+    color: white;
+    background-color: rgb(23, 24, 128);
+    width: 480px;
+    max-width: 300px;
+    border-radius: 35px;
+    border: 1px solid rgb(23, 24, 128);
+    cursor: pointer;
+}
+.or{
+  width: 300px;
+  padding-top: 20px ;
+  padding-bottom: 20px;
+}
+  a{
+    text-decoration: none;
+  }
+  .others1{
+    border: 1px solid rgba(128, 128, 128, 0.676);
+    width: 78%;
+    height: 48px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-left: 30px;
+   
+  }
+  .googlelogo{
+    width: 15px;
+    padding-left: 29px;
+    padding-top: 5px;
+    padding-right: 0;
+  }
+  .google{
+    color: black;
+    background-color: white;
+    width: 50%;
+    max-width: 300px;
+    border-radius: 20px;
+    border: none;
+    align-items: center;
+    font-weight: 400;
+    padding-top: 20px;
+  }
+  
+
+  .google:hover{
+    cursor: pointer;
+  }
+ 
+
+
+  .applelogo{
+    width: 10px;
+    padding-left: 29px;
+    padding-top: 5px;
+    
+  }
+  .apple{
+    color: black;
+    background-color: white;
+    width: 50%;
+    max-width: 300px;
+    border-radius: 20px;
+    border: none;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .apple:hover{
+    cursor: pointer;
+  }
+  .others2{
+    border: 1px solid rgba(128, 128, 128, 0.676);
+    width: 78%;
+    border-radius: 20px;
+    padding-left: 30px;
+    height: 48px;
+    cursor: pointer;
+  }
+
+
+  .linklogo{
+    width: 15px;
+    padding-left: 29px;
+    padding-top: 5px;
+  }
+  .link{
+    color: black;
+    background-color: white;
+    width: 65%;
+    max-width: 300px;
+    border-radius: 20px;
+    border: none;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .link:hover{
+    cursor: pointer;
+  }
+  .others3{
+    border: 1px solid rgba(128, 128, 128, 0.676);
+    border-radius: 20px;
+    width: 78%;
+    height: 48px;
+    padding-left: 30px;
+    cursor: pointer;
+  }
+
+
+  .join{
+   
+    color: blue;
+    background-color: white;
+    width: 5%;
+    max-width: 300px;
+    border-radius: 20px;
+    border: none;
+    
+}
+.join:hover{
+    color: blue;
+    background-color:  rgb(150, 190, 250);
+    width: 5%;
+    max-width: 300px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.last{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 40px;
+    
+}
+footer{
+  display: inline;
+    padding-top: 50px;
+}
+.linkedinblack, .copy{
+    display: inline;
+}
+nav {
+    width: 100%;
+    max-width: 800px;
+    height: 50px;
+  }
+  
+  nav > ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    text-decoration: none;
+  }
+  
+  nav > ul > li {
+    color: rgba(128, 128, 128, 0.292);
+    display: block;
+  }
+  
+  nav > ul > li:hover {
+   
+    color:  rgb(59, 58, 55);
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  li > a {
+    color: rgb(59, 58, 55);
+    text-decoration: none;
+    font-style: normal;
+    font-size: smaller;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .language{
+border: none;
+color: rgb(59, 58, 55);
+width: 83px;
+  }
+  .language:hover{
+    border: none;
+    color: rgb(59, 58, 55);
+    text-decoration: underline;
+    cursor: pointer;
+      }
+.privacy{
+  display: inline;
+}
+.new{
+  padding-left: 80px;
+}
+.footer{
+  padding-left: 100px;
+}
+footer address, .linkedinblack, .copy, nav > ul > li{
+  display: flex;
+  justify-content: safe;
+ 
+}
+.linkedinblack{
+  height: 20px;
+  padding-top: 18px;
+  padding-left: 30px;
+}
+.copy, .linkedinblack{
+  padding-right: 20px;
+}
+
